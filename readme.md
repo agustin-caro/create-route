@@ -1,15 +1,18 @@
-Script for route creation and uploading (OMS)
+# Script for route creation and uploading (OMS)
 
-Installation:
+## Installation:
 
-Clone the repo
-git clone ...
-cd ..
+### Clone the repo
+> git clone git@github.com:agustin-caro/create-route.git
+> cd create-route
+> 
+### Install dependencies
+> pip3 install openpyxl
 
-Install dependencies
-pip3 install openpyxl
-
-Usage:
-
-Run python3 create_route.py {pack_id1} {pack_id2} ...
+## Usage
+Run in terminal:
+>python3 create_route.py {pack_id1} {pack_id2} ...
+>
 e.g python3 create_route.py 7821 5813
+
+It will create (or overwrite) routes.xlsx . You can now upload this file to OMS
